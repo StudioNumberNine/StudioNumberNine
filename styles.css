@@ -219,7 +219,7 @@ body {
     height: 1px;
 }
 #logo {
-    max-width: 500px;
+    max-width: 300px;
     z-index: 10;
     position: absolute;
     top: 50%;
