@@ -112,6 +112,7 @@ section {
 
 body {
     line-height: 1;
+    text-align: center;
 }
 
 ol,
@@ -264,4 +265,40 @@ a {
 
 a:hover {
     /* text-decoration: underline; */
+}
+
+#internal {
+    background: white;
+}
+
+.appLogo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    float: left;
+    margin: 15px;
+}
+
+.appLogo img {
+    margin-bottom: 15px;
+}
+
+#appLogos {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+}
+
+#footer {
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+}
+
+p {
+    color: black !important;
 }
